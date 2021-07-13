@@ -1,0 +1,126 @@
+INFO [06-30|10:30:10.311] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [06-30|10:30:10.311] The flag --rpc is deprecated and will be removed June 2021, please use --http 
+WARN [06-30|10:30:10.311] The flag --rpcaddr is deprecated and will be removed June 2021, please use --http.addr 
+WARN [06-30|10:30:10.311] The flag --rpcport is deprecated and will be removed June 2021, please use --http.port 
+WARN [06-30|10:30:10.311] The flag --rpccorsdomain is deprecated and will be removed June 2021, please use --http.corsdomain 
+WARN [06-30|10:30:10.311] The flag --rpcapi is deprecated and will be removed June 2021, please use --http.api 
+INFO [06-30|10:30:10.311] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [06-30|10:30:10.312] Set global gas cap                       cap=50,000,000
+INFO [06-30|10:30:10.312] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [06-30|10:30:10.312] Allocated cache and file handles         database=/home/sotatek/FCX/BSC/projects/local_ethereum_blockchain/node1/geth/chaindata cache=512.00MiB handles=524,288
+INFO [06-30|10:30:10.338] Opened ancient database                  database=/home/sotatek/FCX/BSC/projects/local_ethereum_blockchain/node1/geth/chaindata/ancient readonly=false
+INFO [06-30|10:30:10.339] Initialised chain configuration          config="{ChainID: 97 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: 0, Berlin: <nil>, London: <nil>, Engine: unknown}"
+INFO [06-30|10:30:10.339] Disk storage enabled for ethash caches   dir=/home/sotatek/FCX/BSC/projects/local_ethereum_blockchain/node1/geth/ethash count=3
+INFO [06-30|10:30:10.339] Disk storage enabled for ethash DAGs     dir=/home/sotatek/.ethash count=2
+INFO [06-30|10:30:10.340] Initialising Ethereum protocol           network=18 dbversion=8
+INFO [06-30|10:30:10.348] Loaded most recent local header          number=513 hash=4d9d4b..e303b2 td=76,165,151 age=15s
+INFO [06-30|10:30:10.348] Loaded most recent local full block      number=513 hash=4d9d4b..e303b2 td=76,165,151 age=15s
+INFO [06-30|10:30:10.348] Loaded most recent local fast block      number=513 hash=4d9d4b..e303b2 td=76,165,151 age=15s
+INFO [06-30|10:30:10.352] Setting new local account                address=0xF54b3294616d39749732Ac74F234F46C9ABf29C4
+INFO [06-30|10:30:10.352] Loaded local transaction journal         transactions=7 dropped=6
+INFO [06-30|10:30:10.353] Regenerated local transaction journal    transactions=1 accounts=1
+INFO [06-30|10:30:10.353] Unprotected transactions allowed 
+INFO [06-30|10:30:10.353] Gasprice oracle is ignoring threshold set threshold=2
+WARN [06-30|10:30:10.353] Unclean shutdown detected                booted=2021-06-30T09:37:52+0700 age=52m18s
+INFO [06-30|10:30:10.353] Starting peer-to-peer node               instance=Geth/v1.10.4-stable-aa637fd3/linux-amd64/go1.16.4
+INFO [06-30|10:30:10.370] New local node record                    seq=8 id=97eb44548bcecf9c ip=127.0.0.1 udp=0 tcp=33333
+INFO [06-30|10:30:10.370] Started P2P networking                   self="enode://d41fbfb6869d607a94b9495af97fb2a2c382a86fce65772e9f0b12073e7eca56557292ed035468cf7840eef6ca8edb3091bbbfee150e444c1fb6cb5221c612f9@127.0.0.1:33333?discport=0"
+INFO [06-30|10:30:10.371] IPC endpoint opened                      url=/home/sotatek/FCX/BSC/projects/local_ethereum_blockchain/node1/geth.ipc
+ERROR[06-30|10:30:10.371] Unavailable modules in HTTP API list     unavailable="[db shh]" available="[admin debug web3 eth txpool personal ethash miner net]"
+INFO [06-30|10:30:10.371] HTTP server started                      endpoint=[::]:22222 prefix= cors=* vhosts=localhost
+INFO [06-30|10:30:10.371] Transaction pool price threshold updated price=1,000,000,000
+INFO [06-30|10:30:10.371] Updated mining threads                   threads=1
+INFO [06-30|10:30:10.371] Transaction pool price threshold updated price=1,000,000,000
+INFO [06-30|10:30:10.371] Etherbase automatically configured       address=0x4594D8c4F103C74AcA1b3d083FaF304f29E8E25f
+INFO [06-30|10:30:10.371] Commit new mining work                   number=514 sealhash=9ea75e..739e83 uncles=0 txs=0 gas=0 fees=0 elapsed="99.361µs"
+WARN [06-30|10:30:10.618] Served eth_sendRawTransaction            conn=10.2.13.137:56120 reqid=9746225689769 t="160.85µs" err="replacement transaction underpriced"
+INFO [06-30|10:30:13.524] Successfully sealed new block            number=514 sealhash=9ea75e..739e83 hash=61d531..d43135 elapsed=3.152s
+INFO [06-30|10:30:13.524] 🔨 mined potential block                  number=514 hash=61d531..d43135
+INFO [06-30|10:30:13.524] Commit new mining work                   number=515 sealhash=cd6682..11c282 uncles=0 txs=0 gas=0 fees=0 elapsed="131.315µs"
+INFO [06-30|10:30:13.574] Successfully sealed new block            number=515 sealhash=cd6682..11c282 hash=4d222a..8083fd elapsed=49.918ms
+INFO [06-30|10:30:13.574] 🔨 mined potential block                  number=515 hash=4d222a..8083fd
+INFO [06-30|10:30:13.574] Commit new mining work                   number=516 sealhash=1e34b9..752fa3 uncles=0 txs=0 gas=0 fees=0 elapsed="89.97µs"
+INFO [06-30|10:30:15.393] Successfully sealed new block            number=516 sealhash=1e34b9..752fa3 hash=c18476..4ec789 elapsed=1.819s
+INFO [06-30|10:30:15.393] 🔨 mined potential block                  number=516 hash=c18476..4ec789
+INFO [06-30|10:30:15.393] Commit new mining work                   number=517 sealhash=dddcf3..824937 uncles=0 txs=0 gas=0 fees=0 elapsed="148.967µs"
+INFO [06-30|10:30:16.830] Successfully sealed new block            number=517 sealhash=dddcf3..824937 hash=a03423..978662 elapsed=1.436s
+INFO [06-30|10:30:16.830] 🔨 mined potential block                  number=517 hash=a03423..978662
+INFO [06-30|10:30:16.830] Commit new mining work                   number=518 sealhash=c063ae..bbdb2d uncles=0 txs=0 gas=0 fees=0 elapsed="116.532µs"
+INFO [06-30|10:30:17.602] Successfully sealed new block            number=518 sealhash=c063ae..bbdb2d hash=fde18d..92951d elapsed=772.293ms
+INFO [06-30|10:30:17.603] 🔨 mined potential block                  number=518 hash=fde18d..92951d
+INFO [06-30|10:30:17.603] Commit new mining work                   number=519 sealhash=ae0bb0..43e8eb uncles=0 txs=0 gas=0 fees=0 elapsed="137.045µs"
+INFO [06-30|10:30:18.001] Successfully sealed new block            number=519 sealhash=ae0bb0..43e8eb hash=893936..c0381c elapsed=398.089ms
+INFO [06-30|10:30:18.001] 🔨 mined potential block                  number=519 hash=893936..c0381c
+INFO [06-30|10:30:18.001] Commit new mining work                   number=520 sealhash=0593d1..2a2249 uncles=0 txs=0 gas=0 fees=0 elapsed="122.429µs"
+INFO [06-30|10:30:18.445] Successfully sealed new block            number=520 sealhash=0593d1..2a2249 hash=39efbd..2b61fc elapsed=443.977ms
+INFO [06-30|10:30:18.445] 🔨 mined potential block                  number=520 hash=39efbd..2b61fc
+INFO [06-30|10:30:18.445] Commit new mining work                   number=521 sealhash=263a75..89ef97 uncles=0 txs=0 gas=0 fees=0 elapsed="89.149µs"
+INFO [06-30|10:30:20.629] Successfully sealed new block            number=521 sealhash=263a75..89ef97 hash=836214..44a9b0 elapsed=2.184s
+INFO [06-30|10:30:20.629] 🔗 block reached canonical chain          number=514 hash=61d531..d43135
+INFO [06-30|10:30:20.629] 🔨 mined potential block                  number=521 hash=836214..44a9b0
+INFO [06-30|10:30:20.629] Commit new mining work                   number=522 sealhash=df98e0..ecbd9f uncles=0 txs=0 gas=0 fees=0 elapsed="126.449µs"
+INFO [06-30|10:30:21.808] Successfully sealed new block            number=522 sealhash=df98e0..ecbd9f hash=655618..940270 elapsed=1.178s
+INFO [06-30|10:30:21.808] 🔗 block reached canonical chain          number=515 hash=4d222a..8083fd
+INFO [06-30|10:30:21.808] 🔨 mined potential block                  number=522 hash=655618..940270
+INFO [06-30|10:30:21.808] Commit new mining work                   number=523 sealhash=49a31f..14895d uncles=0 txs=0 gas=0 fees=0 elapsed="121.195µs"
+INFO [06-30|10:30:22.048] Successfully sealed new block            number=523 sealhash=49a31f..14895d hash=324c25..5b61da elapsed=239.872ms
+INFO [06-30|10:30:22.048] 🔗 block reached canonical chain          number=516 hash=c18476..4ec789
+INFO [06-30|10:30:22.049] 🔨 mined potential block                  number=523 hash=324c25..5b61da
+INFO [06-30|10:30:22.049] Commit new mining work                   number=524 sealhash=cd09a7..fc84f6 uncles=0 txs=0 gas=0 fees=0 elapsed="188.275µs"
+INFO [06-30|10:30:22.668] Successfully sealed new block            number=524 sealhash=cd09a7..fc84f6 hash=40de36..bc5c51 elapsed=619.054ms
+INFO [06-30|10:30:22.668] 🔗 block reached canonical chain          number=517 hash=a03423..978662
+INFO [06-30|10:30:22.668] 🔨 mined potential block                  number=524 hash=40de36..bc5c51
+INFO [06-30|10:30:22.668] Commit new mining work                   number=525 sealhash=530646..8a7432 uncles=0 txs=0 gas=0 fees=0 elapsed="267.519µs"
+INFO [06-30|10:30:22.868] Successfully sealed new block            number=525 sealhash=530646..8a7432 hash=189803..aa0699 elapsed=200.428ms
+INFO [06-30|10:30:22.868] 🔗 block reached canonical chain          number=518 hash=fde18d..92951d
+INFO [06-30|10:30:22.868] 🔨 mined potential block                  number=525 hash=189803..aa0699
+INFO [06-30|10:30:22.869] Commit new mining work                   number=526 sealhash=e16399..2e6153 uncles=0 txs=0 gas=0 fees=0 elapsed="103.817µs"
+INFO [06-30|10:30:23.453] Successfully sealed new block            number=526 sealhash=e16399..2e6153 hash=a9dacf..afa459 elapsed=584.003ms
+INFO [06-30|10:30:23.453] 🔗 block reached canonical chain          number=519 hash=893936..c0381c
+INFO [06-30|10:30:23.453] 🔨 mined potential block                  number=526 hash=a9dacf..afa459
+INFO [06-30|10:30:23.453] Commit new mining work                   number=527 sealhash=b9f3fd..f3a571 uncles=0 txs=0 gas=0 fees=0 elapsed="91.766µs"
+INFO [06-30|10:30:23.570] Successfully sealed new block            number=527 sealhash=b9f3fd..f3a571 hash=756fd1..bdbf45 elapsed=117.068ms
+INFO [06-30|10:30:23.570] 🔗 block reached canonical chain          number=520 hash=39efbd..2b61fc
+INFO [06-30|10:30:23.570] 🔨 mined potential block                  number=527 hash=756fd1..bdbf45
+INFO [06-30|10:30:23.570] Commit new mining work                   number=528 sealhash=1a0684..4fb3fc uncles=0 txs=0 gas=0 fees=0 elapsed="76.196µs"
+INFO [06-30|10:30:27.467] Successfully sealed new block            number=528 sealhash=1a0684..4fb3fc hash=881bd7..ed3b86 elapsed=3.896s
+INFO [06-30|10:30:27.467] 🔗 block reached canonical chain          number=521 hash=836214..44a9b0
+INFO [06-30|10:30:27.467] 🔨 mined potential block                  number=528 hash=881bd7..ed3b86
+INFO [06-30|10:30:27.467] Commit new mining work                   number=529 sealhash=ed6c1f..c912f4 uncles=0 txs=0 gas=0 fees=0 elapsed="153.63µs"
+INFO [06-30|10:30:27.863] Successfully sealed new block            number=529 sealhash=ed6c1f..c912f4 hash=b16bc9..291422 elapsed=396.181ms
+INFO [06-30|10:30:27.863] 🔗 block reached canonical chain          number=522 hash=655618..940270
+INFO [06-30|10:30:27.863] 🔨 mined potential block                  number=529 hash=b16bc9..291422
+INFO [06-30|10:30:27.863] Commit new mining work                   number=530 sealhash=da414b..68eab4 uncles=0 txs=0 gas=0 fees=0 elapsed="78.615µs"
+INFO [06-30|10:30:28.585] Successfully sealed new block            number=530 sealhash=da414b..68eab4 hash=f752c3..6b48d6 elapsed=721.337ms
+INFO [06-30|10:30:28.585] 🔗 block reached canonical chain          number=523 hash=324c25..5b61da
+INFO [06-30|10:30:28.585] 🔨 mined potential block                  number=530 hash=f752c3..6b48d6
+INFO [06-30|10:30:28.585] Commit new mining work                   number=531 sealhash=34a339..f36386 uncles=0 txs=0 gas=0 fees=0 elapsed="142.423µs"
+INFO [06-30|10:30:28.776] Successfully sealed new block            number=531 sealhash=34a339..f36386 hash=723b2f..4f7e77 elapsed=190.942ms
+INFO [06-30|10:30:28.776] 🔗 block reached canonical chain          number=524 hash=40de36..bc5c51
+INFO [06-30|10:30:28.776] 🔨 mined potential block                  number=531 hash=723b2f..4f7e77
+INFO [06-30|10:30:28.776] Commit new mining work                   number=532 sealhash=66c91b..502994 uncles=0 txs=0 gas=0 fees=0 elapsed="106.699µs"
+INFO [06-30|10:30:29.437] Successfully sealed new block            number=532 sealhash=66c91b..502994 hash=bdb9e0..856152 elapsed=661.355ms
+INFO [06-30|10:30:29.437] 🔗 block reached canonical chain          number=525 hash=189803..aa0699
+INFO [06-30|10:30:29.438] 🔨 mined potential block                  number=532 hash=bdb9e0..856152
+INFO [06-30|10:30:29.438] Commit new mining work                   number=533 sealhash=d42f0a..a3362d uncles=0 txs=0 gas=0 fees=0 elapsed="141.431µs"
+WARN [06-30|10:30:30.620] Served eth_sendRawTransaction            conn=10.2.13.137:56198 reqid=9746225689770 t="144.692µs" err="replacement transaction underpriced"
+INFO [06-30|10:30:30.897] Successfully sealed new block            number=533 sealhash=d42f0a..a3362d hash=9f28b2..f4639e elapsed=1.459s
+INFO [06-30|10:30:30.897] 🔗 block reached canonical chain          number=526 hash=a9dacf..afa459
+INFO [06-30|10:30:30.897] 🔨 mined potential block                  number=533 hash=9f28b2..f4639e
+INFO [06-30|10:30:30.897] Commit new mining work                   number=534 sealhash=7cb00b..902b57 uncles=0 txs=0 gas=0 fees=0 elapsed="157.453µs"
+INFO [06-30|10:30:35.414] Got interrupt, shutting down... 
+INFO [06-30|10:30:35.416] HTTP server stopped                      endpoint=[::]:22222
+INFO [06-30|10:30:35.416] IPC endpoint closed                      url=/home/sotatek/FCX/BSC/projects/local_ethereum_blockchain/node1/geth.ipc
+INFO [06-30|10:30:35.416] Ethereum protocol stopped 
+INFO [06-30|10:30:35.416] Transaction pool stopped 
+INFO [06-30|10:30:35.417] Writing cached state to disk             block=533 hash=9f28b2..f4639e root=9cdf3c..fac29c
+INFO [06-30|10:30:35.417] Persisted trie from memory database      nodes=3 size=921.00B time="45.238µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=58 livesize=17.09KiB
+INFO [06-30|10:30:35.417] Writing cached state to disk             block=532 hash=bdb9e0..856152 root=fa6e93..ff0f34
+INFO [06-30|10:30:35.417] Persisted trie from memory database      nodes=3 size=921.00B time="20.794µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=55 livesize=16.19KiB
+INFO [06-30|10:30:35.417] Writing cached state to disk             block=406 hash=ea5408..0ba51d root=6ed0a3..fe950b
+INFO [06-30|10:30:35.417] Persisted trie from memory database      nodes=0 size=0.00B   time=647ns      gcnodes=0 gcsize=0.00B gctime=0s livenodes=55 livesize=16.19KiB
+INFO [06-30|10:30:35.417] Writing snapshot state to disk           root=821093..477f7f
+INFO [06-30|10:30:35.417] Persisted trie from memory database      nodes=0 size=0.00B   time=506ns      gcnodes=0 gcsize=0.00B gctime=0s livenodes=55 livesize=16.19KiB
+INFO [06-30|10:30:35.417] Writing clean trie cache to disk         path=/home/sotatek/FCX/BSC/projects/local_ethereum_blockchain/node1/geth/triecache threads=6
+INFO [06-30|10:30:35.419] Persisted the clean trie cache           path=/home/sotatek/FCX/BSC/projects/local_ethereum_blockchain/node1/geth/triecache elapsed=2.384ms
+INFO [06-30|10:30:35.420] Blockchain stopped 
