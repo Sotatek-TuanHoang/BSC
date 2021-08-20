@@ -1,8 +1,8 @@
-=============== Jul 12, 2021 (+07) ===============
-09:18:02.664886 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-09:18:02.673292 db@open opening
-09:18:02.673459 version@stat F·[] S·0B[] Sc·[]
-09:18:02.676315 db@janitor F·2 G·0
-09:18:02.676325 db@open done T·3.024178ms
-09:18:02.677813 db@close closing
-09:18:02.677851 db@close done T·36.515µs
+=============== Aug 15, 2021 (+07) ===============
+10:11:47.369053 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:11:47.382826 db@open opening
+10:11:47.383004 version@stat F·[] S·0B[] Sc·[]
+10:11:47.387733 db@janitor F·2 G·0
+10:11:47.387754 db@open done T·4.915443ms
+10:11:47.390216 db@close closing
+10:11:47.390284 db@close done T·65.967µs
